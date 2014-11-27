@@ -3,23 +3,58 @@ body {
      background: #f2fffc;
      font-size: 120%;
 }
+
 h1,h2{
      font-family: "Open Sans Condensed";
 }
+
 main h1{
         text-align: center;
         background-color: #851944;
         color: #ffffff;
         font-size: 60px;
+        padding: 10px;
+        margin: 0; 
+        
 }
+
 p{
   text-align: justify;  
 }
-footer{
-      background: #000000;
-      color: #ffffff;
+
+div footer{
+      background-color: #000000;
+      color: #F2FFFC;
 }
 
-li {
-    !--!color: #ffffff;
+blockquote {
+    background-color: #D9E5E3; /*  Coloca cor de fundo */
+    padding: 10px; /* Faz o texto afastar 10 pixel da borda */
+    border: 10px solid #C2CCCA; /* Coloca uma borda de tamanho 10 pixel, sólida e com a cor citada */ 
+    width: 250px; /* Está transformando a caixa nesse tamanho */
+    margin: 0; /* Está coloando a caixa na margem da página */
+    box-sizing: border-box; /* Faz o navegador calcular certo o tamanho da caixa */
+}
+
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+main a {
+    color: #851944;
+    
+}
+
+aside ul li a {
+      color: inherit;
+      font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Opens Sans Condensed",sans-serif;
+    text-decoration: none;
+    
 }
